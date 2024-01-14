@@ -165,6 +165,7 @@ img {
 /* ---------------HERO------------- */
 .hero {
   max-width: 1440px;
+  margin: 0 auto;
   background: #2e2f42;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -380,10 +381,10 @@ img {
 }
 
 .portfolio-item {
+  border: -1px solid #E7E9FC;
   width: calc((100% - 24 * 2) / 3);
-  border: -1px solid #e7e9fc;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transitioin: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-content-cover {
@@ -403,7 +404,6 @@ img {
 
 .portfolio-item:hover,
 .portfolio-item:focus {
-  border-color: #f4f4fd;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -430,7 +430,7 @@ img {
 .portfolio-item-under-img {
   display: flex;
   flex-direction: column;
-  padding: 32px 16px;
+  padding: 32px 15px;
 }
 
 .portfolio-item-title {
